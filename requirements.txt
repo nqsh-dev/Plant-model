@@ -1,7 +1,6 @@
-fastAPI
+fastapi
 tensorflow
 numpy
-opencv
-time
+opencv-python
 uvicorn
 pillow

@@ -41,9 +41,9 @@ async def predict(file: UploadFile = File(...)):
 
 
     if prob >= 0.5:
-        classe = "stress"
-    else:
         classe = "saine"
+    else:
+        classe = "stress"
 
     return {
         "classe": classe,

@@ -1,4 +1,5 @@
 ﻿absl-py==2.4.0
+pywinpty; sys_platform == "win32"
 accelerate==1.13.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
